@@ -1,0 +1,44 @@
+body {
+background: url(/images/background.jpg)no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.form-signin {
+    margin: 30px;
+    display: flex;
+   align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;  
+    margin-top: 200px;
+}
+
+.form-control {
+    width: 300px;
+    height: 40px;
+    margin: 5px;
+    font-size: 20px;
+    opacity: 60%;
+}
+
+.submit-button {
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    background-color: black;
+    opacity: 70%;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 12px;
+}
